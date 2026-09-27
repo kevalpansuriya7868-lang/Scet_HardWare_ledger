@@ -1,0 +1,27 @@
+{
+  "oracle": {
+    "user": "system",
+    "password": "Keval@0409r",
+    "host": "127.0.0.1",
+    "port": 1521,
+    "service_name": "xe"
+  },
+  "security": {
+    "jwt_secret": "SCET_SECRET_KEY_SUPER_SECURE_2026_TOKEN_AUTH",
+    "token_expire_hours": 8,
+    "enforce_scet_subnet": true,
+    "allowed_subnets": [
+      "172.21.252.212"
+    ]
+  },
+  "smtp": {
+    "enabled": true,
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "sender_email": "kevalkumarpansuriya.co25d3@scet.ac.in",
+    "sender_password": "xdyubbmrxoljiofa"
+  },
+  "student_api": {
+    "base_url": "http://127.0.0.1:5000"
+  }
+}
